@@ -37,6 +37,6 @@ Para executar este projeto, você precisa ter o [Python](https://www.python.org/
 
 3. Execute o arquivo principal da aplicação:
    ```bash
-   python main.py
+   python src/main.py
    ```
-   *(Nota: No macOS ou Linux, pode ser necessário utilizar o comando `python3 main.py`).*
+   *(Nota: No macOS ou Linux, pode ser necessário utilizar o comando `python3 src/main.py`).*
