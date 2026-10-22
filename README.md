@@ -39,4 +39,22 @@ Para executar este projeto, você precisa ter o [Python](https://www.python.org/
    ```bash
    python src/main.py
    ```
+
    *(Nota: No macOS ou Linux, pode ser necessário utilizar o comando `python3 src/main.py`).*
+
+---
+
+## 🐳 Execução com Docker (Fase 3)
+
+Instruções para construir e executar a aplicação em ambiente conteinerizado.
+
+### Pré-requisitos
+- [Docker](https://www.docker.com/) instalado
+- [Docker Compose](https://docs.docker.com/compose/) instalado
+
+### Comandos de Execução
+
+1. **Construir a imagem Docker:**
+   ```bash
+   docker build -t tasktracker-app .
+
